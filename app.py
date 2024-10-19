@@ -6,7 +6,7 @@ import pytz
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/htop')
 def htop():
     full_name = "Harsh Tiwari"
     
